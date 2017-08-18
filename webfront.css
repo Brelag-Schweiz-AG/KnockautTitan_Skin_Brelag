@@ -65,7 +65,21 @@ background-image: url(./img/brelag-logo.png);
 }
 
 .ipsCategory>.container {
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-color: #006BB2;
+	border-width: 10px;
+	color: #787875;
+}
+
+.ipsCategory>.container.hasChildren {
 	background-color: #006BB2;
+	border-width: 1px;
+	color: #FFFFFF;
+}
+
+.ipsCategory>.container.hasChildren>.content>.icon {
+	filter: invert(0);
 }
 
 .ipsCategory>.container>.childContainers {
@@ -104,6 +118,7 @@ background-image: url(./img/brelag-logo.png);
 	background-color: #CCCCCC;
 	border-style: none;
 	color: #787875;
+	min-height: 29px;
 }
 
 .ipsCategory>.container .content .visual>.selector>.selected {
@@ -140,11 +155,17 @@ background-image: url(./img/brelag-logo.png);
 }
 
 .ipsCategory>.container .content .icon {
-	filter: invert(0.5);
+	filter: invert(0.6);
 }
 
-.ipsCategory>.container .content .link>.colorLink{
-	filter: invert(0.5);
+/* Invertieren von Symbolen */
+.ipsCategory>.container .content .link>.keyboardLink, 
+.ipsCategory>.container .content .link>.chartLink, 
+.ipsCategory>.container .content .link>.timerLink, 
+.ipsCategory>.container .content .link>.runLink, 
+.ipsCategory>.container .content .link>.colorLink, 
+.ipsCategory>.container .content .link>.enumLink {
+	filter: invert(0.6);
 }
 
 .ipsDialog>div {
@@ -157,7 +178,7 @@ background-image: url(./img/brelag-logo.png);
 	color: #FFFFFF;
 	background-color: #006BB2;
 	width: 98%;
-	padding: 10px 0 6px 12px;
+	padding: 10px 0 6px 2%;
 }
 
 .ipsDialog.ipsCirclesliderDialog svg text {
@@ -179,5 +200,18 @@ background-image: url(./img/brelag-logo.png);
 .ipsDialog.ipsCirclesliderDialog .sliderHandle {
 	fill: #006BB2;
 	stroke: grey;
+}
+
+.ipsDialog.ipsChartDialog>div>.buttons>.prev, 
+.ipsDialog.ipsChartDialog>div>.buttons>.next {
+	filter: invert(0.6);
+}
+
+div.ipsChart>svg {
+	filter: invert(0.8);
+}
+
+.ipsDialog.ipsChartDialog>div>.topRightBox {
+	color: #FFFFFF;
 }
 
