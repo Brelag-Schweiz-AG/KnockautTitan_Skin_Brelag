@@ -58,7 +58,7 @@ background-image: url(./img/brelag-logo.png);
 	border-style: solid;
 	border-width: 1px;
 	border-color: #006BB2;
-	color: #FFFFFF
+	color: #FFFFFF;
 	font-family: Calibri;
 	font-size: 19px;
 }
@@ -111,7 +111,7 @@ background-image: url(./img/brelag-logo.png);
 }
 
 .ipsCategory>.container .content .visual>.enum>div {
-	background-image:  -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.25) 100%);
+	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0) 0,rgba(255,255,255,0.5) 100%);
 	background-color: #CCCCCC;
 	border-style: none;
 	color: #787875;
@@ -131,7 +131,7 @@ background-image: url(./img/brelag-logo.png);
 }
 
 .ipsCategory>.container .content .visual>.selector>div {
-	background-image:  -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.25) 100%);
+	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0) 0,rgba(255,255,255,0.5) 100%);
 	background-color: #CCCCCC;
 	border-style: none;
 	color: #787875;
@@ -160,13 +160,13 @@ background-image: url(./img/brelag-logo.png);
 }
 
 .ipsCategory>.container .content .visual>.slider>div>.background {
-	background-image:  -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.25) 100%);
+	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0) 0,rgba(255,255,255,0.5) 100%);
 	background-color: #CCCCCC;
 	border-style: none;
 }
 
 .ipsCategory>.container .content .visual>.slider>div>.bar {
-	background-image:  -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.25) 100%);
+	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0) 0,rgba(255,255,255,0.5) 100%);
 	border-style: none;
 	background-color: #787875;
 }
