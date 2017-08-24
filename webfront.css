@@ -40,24 +40,34 @@ background-image: url(./img/brelag-logo.png);
 }
 
 .ipsWebFront {
-	background-color: #FFFFFF;
+	background-color: #006BB2;
+	font: Calibri;
 }
 
 .ipsWebFront>.ipsTabPane>.navigation {
 	background-color: #0D528A;
 	border-color: #0D528A;
+	background-image: -webkit-linear-gradient(top, rgb(36,124,189) 0,rgb(4,81,140) 40px);
+	font-family: Calibri;
+	font-size: 19px;
 }
 
 .ipsTabPane>.navigation {
 	background-color: #006BB2;
-	background-image: none;
+	background-image: -webkit-linear-gradient(top, rgb(43,134,200,1) 0,rgb(0,105,180) 40px);
 	border-style: solid;
+	border-width: 1px;
 	border-color: #006BB2;
 	color: #FFFFFF
+	font-family: Calibri;
+	font-size: 19px;
 }
 
 .ipsTabPane>.content {
 	background-color: #FFFFFF;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url(./img/background.jpg);
 }
 
 .ipsTabPane>.navigation>.scroll>.buttons>div {
@@ -67,15 +77,20 @@ background-image: url(./img/brelag-logo.png);
 .ipsCategory>.container {
 	background-color: #FFFFFF;
 	border-style: solid;
-	border-color: #006BB2;
 	border-width: 10px;
+	border-color: #006BB2;
+	border-image: -webkit-linear-gradient(left,rgb(41,131,195) 50px,rgb(0,105,180),rgb(41,131,195));
+	border-image-slice: 1;
 	color: #787875;
 }
 
 .ipsCategory>.container.hasChildren {
 	background-color: #006BB2;
+	background-image: -webkit-linear-gradient(left,rgb(41,131,195),rgb(0,105,180),rgb(41,131,195));
 	border-width: 1px;
 	color: #FFFFFF;
+	font-family: calibri;
+	font-size: 19px;
 }
 
 .ipsCategory>.container.hasChildren>.content>.icon {
@@ -96,15 +111,17 @@ background-image: url(./img/brelag-logo.png);
 }
 
 .ipsCategory>.container .content .visual>.enum>div {
-	background-image: none;
+	background-image:  -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.25) 100%);
 	background-color: #CCCCCC;
 	border-style: none;
 	color: #787875;
+	filter: grayscale();
 }
 
 .ipsCategory>.container .content .visual>.enum>.selected {
-	background-image: none;
-	background-color: #787875;
+	filter: none;
+	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0) 0,rgba(255,255,255,0.25) 100%);
+	background-color: #006BB2;
 	border-style: none;
 	color: #FFFFFF;
 }
@@ -114,7 +131,7 @@ background-image: url(./img/brelag-logo.png);
 }
 
 .ipsCategory>.container .content .visual>.selector>div {
-	background-image: none;
+	background-image:  -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.25) 100%);
 	background-color: #CCCCCC;
 	border-style: none;
 	color: #787875;
@@ -122,16 +139,16 @@ background-image: url(./img/brelag-logo.png);
 }
 
 .ipsCategory>.container .content .visual>.selector>.selected {
-	background-image: none;
-	background-color: #787875;
+	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0) 0,rgba(255,255,255,0.25) 100%);
+	background-color: #006BB2;
 	border-style: none;
 	color: #FFFFFF;
 }
 
 .ipsCategory>.container .content .visual>.text.colored {
+	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0) 0,rgba(255,255,255,0.25) 100%);
 	color: #FFFFFF;
 	border-style: none;
-	background-image: none;
 }
 
 /* Korrektur Prozentzahl- und Sliderposition */
@@ -143,13 +160,13 @@ background-image: url(./img/brelag-logo.png);
 }
 
 .ipsCategory>.container .content .visual>.slider>div>.background {
-	background-image: none;
+	background-image:  -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.25) 100%);
 	background-color: #CCCCCC;
 	border-style: none;
 }
 
 .ipsCategory>.container .content .visual>.slider>div>.bar {
-	background-image: none;
+	background-image:  -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.25) 100%);
 	border-style: none;
 	background-color: #787875;
 }
