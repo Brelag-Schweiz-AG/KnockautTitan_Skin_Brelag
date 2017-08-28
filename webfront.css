@@ -1,3 +1,21 @@
+/* Schriftart ändern */
+
+.ipsTabPane > .navigation {
+	font-family: Calibri,HelveticaNeue,Helvetica,Arial,sans-serif;
+}
+
+body {
+	font-family: Calibri,HelveticaNeue,Helvetica,Arial,sans-serif;
+}
+
+.ipsDWDReport .title {
+	font-family: Calibri,HelveticaNeue,Helvetica,Arial,sans-serif;
+}
+
+.ipsLogin > .pageTitle {
+	font-family: Calibri,HelveticaNeue,Helvetica,Arial,sans-serif;
+}
+
 /* Logo austauschen */
 .ipsLogin>.logo {
 background-image: url(./img/titan-logo.png);
@@ -41,14 +59,12 @@ background-image: url(./img/brelag-logo.png);
 
 .ipsWebFront {
 	background-color: #006BB2;
-	font: Calibri;
 }
 
 .ipsWebFront>.ipsTabPane>.navigation {
 	background-color: #0D528A;
 	border-color: #0D528A;
 	background-image: -webkit-linear-gradient(top, rgb(36,124,189) 0,rgb(4,81,140) 40px);
-	font-family: Calibri;
 	font-size: 19px;
 }
 
@@ -59,7 +75,6 @@ background-image: url(./img/brelag-logo.png);
 	border-width: 1px;
 	border-color: #006BB2;
 	color: #FFFFFF;
-	font-family: Calibri;
 	font-size: 19px;
 }
 
@@ -89,7 +104,6 @@ background-image: url(./img/brelag-logo.png);
 	background-image: -webkit-linear-gradient(left,rgb(41,131,195),rgb(0,105,180),rgb(41,131,195));
 	border-width: 1px;
 	color: #FFFFFF;
-	font-family: calibri;
 	font-size: 19px;
 }
 
