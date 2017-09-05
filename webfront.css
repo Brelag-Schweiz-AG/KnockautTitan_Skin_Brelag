@@ -39,10 +39,10 @@ background-image: url(./img/brelag-logo.png);
 	position: absolute;
 	height: calc(50% - 20px - 105px/2);
 	width: 100%;
-	top: 50%;
+	top: 55%;
 	left: 0;
 	margin-left: 0;
-	margin-top: 20px;
+	margin-top: 0px;
 }
 
 /* Farbe verändern */
@@ -87,6 +87,10 @@ background-image: url(./img/brelag-logo.png);
 
 .ipsTabPane>.navigation>.scroll>.buttons>div {
 	opacity: 1;
+}
+
+.ipsTabPane>.navigation>.scroll>.buttons>div.active {
+	background-color: rgba(255,255,255,0.15);
 }
 
 .ipsCategory>.container {
@@ -239,10 +243,40 @@ background-image: url(./img/brelag-logo.png);
 }
 
 div.ipsChart>svg {
-	filter: invert(0.8);
+	filter: invert(1);
 }
 
 .ipsDialog.ipsChartDialog>div>.topRightBox {
 	color: #FFFFFF;
 }
 
+.ipsDialog.ipsEventDialog>.ipsScheduleDialog>.content {
+	filter: invert(1);
+	color: #FFFFFF;
+}
+
+.ipsDialog.ipsScheduleEntryDialog>div>.buttons, 
+.ipsDialog.ipsMailDialog>div>.buttons, 
+.ipsDialog.Dialog>div>.buttons, 
+.ipsDialog.ipsChartDialog>div>.buttons {
+	filter: invert(0.6);
+}
+
+.ipsDialog.ipsEventDialog>div>.content>.outerCenter>.center>.linesContainer>.touchContainer>.sliderContainer>.slider {
+	filter: invert(1);
+}
+
+.ipsDialog.ipsEventDialog .buttons, 
+.ipsDialog.ipsDateTimeDialog .buttons {
+	filter: invert(0.6);
+}
+.ipsScheduleEntryDialog .leftContainer {
+	filter: invert(0.6);
+}
+.ipsScheduleEntryDialog .rightContainer {
+	filter: invert(1);
+}
+
+.ipsDialog.ipsScheduleEntryDialog .leftSide .colorSphere {
+	filter: invert(1);
+}
