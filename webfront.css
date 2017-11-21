@@ -296,7 +296,10 @@ background-image: url(./img/brelag-logo.png);
 
 div.ipsChart>svg>g.graphs>g.background>g>path, 
 div.ipsChart>svg>g.grid>line.gridLine, 
-div.ipsChart>svg>g.axis>g.labels>text, 
 div.ipsChart>svg>g.graphs>g.outline>g>path {
 	stroke: #787875;
+}
+
+div.ipsChart>svg>g.axis>g.labels>text {
+	fill: #787875;
 }
