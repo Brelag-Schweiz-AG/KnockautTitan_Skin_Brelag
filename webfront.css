@@ -216,6 +216,23 @@ background-image: url(./img/brelag-logo.png);
 	padding: 10px 0 6px 2%;
 }
 
+.ipsDialog.ipsEditorDialog>div>.content>ol>li>input[type=text], 
+.ipsDialog.ipsEditorDialog>div>.content>ol>li>select, 
+.ipsDialog.ipsEditorDialog>div>.content>select {
+	border: 1px solid rgba(0,107,178,0.2);
+	color: #787875;
+}
+
+.ipsDialog.ipsEditorDialog>div>.content>ol>li>select>option, 
+.ipsDialog.ipsEditorDialog>div>.content>select>option {
+	background-color: #FFFFFF;
+}
+
+.ipsDialog.ipsEditorSelectDialog>div>.content .treeIcon, 
+.ipsDialog.ipsEditorSelectDialog>div>.content label {
+	filter: invert(0.6);
+}
+
 .ipsDialog.ipsCirclesliderDialog svg text {
 	fill: #787875;
 }
@@ -240,10 +257,6 @@ background-image: url(./img/brelag-logo.png);
 .ipsDialog.ipsChartDialog>div>.buttons>.prev, 
 .ipsDialog.ipsChartDialog>div>.buttons>.next {
 	filter: invert(0.6);
-}
-
-div.ipsChart>svg {
-	filter: invert(1);
 }
 
 .ipsDialog.ipsChartDialog>div>.topRightBox {
@@ -279,4 +292,11 @@ div.ipsChart>svg {
 
 .ipsDialog.ipsScheduleEntryDialog .leftSide .colorSphere {
 	filter: invert(1);
+}
+
+div.ipsChart>svg>g.graphs>g.background>g>path, 
+div.ipsChart>svg>g.grid>line.gridLine, 
+div.ipsChart>svg>g.axis>g.labels>text, 
+div.ipsChart>svg>g.graphs>g.outline>g>path {
+	stroke: #787875;
 }
