@@ -6,6 +6,7 @@
 
 body {
 	font-family: Calibri,HelveticaNeue,Helvetica,Arial,sans-serif;
+	font-size: 19px;
 }
 
 .ipsDWDReport .title {
@@ -65,7 +66,6 @@ background-image: url(./img/brelag-logo.png);
 	background-color: #0D528A;
 	border-color: #0D528A;
 	background-image: -webkit-linear-gradient(top, rgb(36,124,189) 0,rgb(4,81,140) 40px);
-	font-size: 19px;
 }
 
 .ipsTabPane>.navigation {
@@ -75,7 +75,6 @@ background-image: url(./img/brelag-logo.png);
 	border-width: 1px;
 	border-color: #006BB2;
 	color: #FFFFFF;
-	font-size: 19px;
 }
 
 .ipsTabPane>.content {
@@ -108,7 +107,6 @@ background-image: url(./img/brelag-logo.png);
 	background-image: -webkit-linear-gradient(left,rgb(41,131,195),rgb(0,105,180),rgb(41,131,195));
 	border-width: 1px;
 	color: #FFFFFF;
-	font-size: 19px;
 }
 
 .ipsCategory>.container.hasChildren>.content>.icon {
@@ -161,6 +159,10 @@ background-image: url(./img/brelag-logo.png);
 	background-color: #006BB2;
 	border-style: none;
 	color: #FFFFFF;
+}
+
+.ipsCategory > .container .content .visual > .text > input[type=text] {
+	color: #787875;
 }
 
 .ipsCategory>.container .content .visual>.text.colored {
@@ -228,6 +230,8 @@ background-image: url(./img/brelag-logo.png);
 	background-color: #FFFFFF;
 }
 
+.ipsDialog.ipsEditorDialog>div>.remove, 
+.ipsDialog.ipsEditorDialog>div>.save, 
 .ipsDialog.ipsEditorSelectDialog>div>.content .treeIcon, 
 .ipsDialog.ipsEditorSelectDialog>div>.content label {
 	filter: invert(0.6);
